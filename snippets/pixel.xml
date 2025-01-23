@@ -51,7 +51,7 @@
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="pixel" />
-  <project path="frameworks/base" name="frameworks_base" remote="pixel-j607f" />
+  <project path="frameworks/base" name="frameworks_base" remote="pixel-j607f" clone-depth="1" />
   <project path="frameworks/native" name="frameworks_native" remote="pixel-j607f" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="pixel" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="pixel" />
@@ -76,7 +76,7 @@
   </project>
   <project path="build/blueprint" name="build_blueprint" remote="pixel" />
   <project path="bootable/recovery" name="bootable_recovery" remote="pixel" />
-  <project path="cts" name="cts" remote="pixel" />
+  <project path="cts" name="cts" remote="pixel" clone-depth="1" />
   <project path="development" name="development" remote="pixel" />
   <project path="device/google/cuttlefish" name="device_google_cuttlefish" remote="pixel" />
   <project path="device/google/contexthub" name="device_google_contexthub" remote="pixel" />
