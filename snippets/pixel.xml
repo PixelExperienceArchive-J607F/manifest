@@ -11,6 +11,11 @@
           revision="thirteen"
           review="gerrit.pixelexperience.org" />
 
+  <remote name="pixel-archive"
+          fetch="https://github.com/PixelExperienceArchive"
+          revision="thirteen"
+          review="gerrit.pixelexperience.org" />
+
   <remote name="pixel-gitlab"
           fetch="https://gitlab.pixelexperience.org/android"
           revision="thirteen" />
