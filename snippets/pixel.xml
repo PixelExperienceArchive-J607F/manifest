@@ -16,8 +16,8 @@
           revision="thirteen"
           review="gerrit.pixelexperience.org" />
 
-  <remote name="pixel-gitlab"
-          fetch="https://gitlab.pixelexperience.org/android"
+  <remote name="pixel-gitlab-archive"
+          fetch="https://jihulab.com/zhz8888-Fork/PixelExperience"
           revision="thirteen" />
 
   <remote name="pixel-devices"
